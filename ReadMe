@@ -1,0 +1,34 @@
+README
+===========
+
+Gym Tracker
+------------
+
+**Gym Tracker** es una aplicación de consola en Python que permite a los usuarios crear, gestionar y utilizar rutinas de ejercicios personalizadas. Los usuarios pueden registrar su información personal y luego crear diferentes rutinas de entrenamiento que se almacenan en un archivo JSON para su posterior consulta.
+
+## Características
+
+- **Registro de Usuarios:** Los usuarios pueden registrarse ingresando su nombre, contraseña, peso y altura.
+- **Gestión de Rutinas:** Permite crear rutinas de ejercicios con múltiples ejercicios, cada uno con su propio peso, repeticiones y series.
+- **Archivo JSON:** Almacena las rutinas en un archivo JSON para su fácil lectura y actualización.
+- **Interfaz de Usuario Simple:** Interfaz basada en consola que es fácil de usar e intuitiva.
+- **Función de Login:** Los usuarios pueden iniciar sesión con su nombre de usuario y contraseña para acceder a sus rutinas personales.
+
+## Contenido del Proyecto
+
+El proyecto contiene los siguientes archivos:
+
+- **`main.py`**: Script principal que ejecuta la aplicación de consola.
+- **`RutinasUsuario.json`**: Archivo JSON que almacena las rutinas de los usuarios.
+
+## Requisitos
+
+Para ejecutar este proyecto, necesitas tener instalado Python 3.x en tu máquina. No se requieren librerías externas más allá de las que vienen incluidas con Python.
+
+## Instrucciones de Instalación
+
+1. **Clonar el Repositorio:**
+
+   ```bash
+   git clone https://github.com/dwigthDev/gym-tracker.git
+   cd gym-tracker
